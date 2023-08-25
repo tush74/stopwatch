@@ -1,0 +1,42 @@
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+table,th{
+    border: 2px dotted rgb(241, 0, 0);
+}
+table{
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+    max-width: 40vw;
+    height: 20vh;
+}
+th{
+    width: 25%;
+}
+.button{
+    margin-left: 5vw;
+    display:grid;
+}
+button{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    width: 5vw;
+    height: 5vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+.num{
+    font-size: 2.5rem;
+}
